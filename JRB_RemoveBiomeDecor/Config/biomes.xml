@@ -1,0 +1,47 @@
+<RemoveBiomeDecor>
+<!--
+treeDeadShrub
+driftwood driftwood2
+cinderBlocks01 cinderBlocks02 cinderBlocks03
+scrapMetalPile
+-->
+
+<!-- Biome Spawning Decorations -->
+
+	<!-- Scrap Metal piles -->
+				<!-- Wasteland Hub -->
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland_hub']/decorations/decoration[@blockname='scrapMetalPile']" />
+				<!-- Wasteland -->
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='scrapMetalPile']" />
+	
+	
+	<!-- Driftwood (small partial logs) -->
+				<!-- Desert -->
+	<remove xpath="worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@blockname='driftwood']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@blockname='driftwood2']" />
+	
+	
+	<!-- Cinderblocks -->
+				<!-- Water -->
+	<remove xpath="worldgeneration/biomes/biome[@name='water']/decorations/decoration[@blockname='cinderBlocks01']" />
+				<!-- Underwater -->
+	<remove xpath="worldgeneration/biomes/biome[@name='underwater']/decorations/decoration[@blockname='cinderBlocks01']" />
+				<!-- Wasteland -->
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='cinderBlocks01']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='cinderBlocks02']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='cinderBlocks03']" />
+	
+	
+	<!-- Small dead tree shrub (one with horrible LOD)-->
+				<!-- Wasteland -->
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='treeDeadShrub']" />
+				<!-- Burnt Forest -->
+	<remove xpath="worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.04']/decorations/decoration[@blockname='treeDeadShrub']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='burnt_forest']/decorations/decoration[@blockname='treeDeadShrub']" />
+				<!-- Wasteland Hub -->
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland_hub']/subbiome[@prob='0.02']/decorations/decoration[@blockname='treeDeadShrub']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland_hub']/decorations/decoration[@blockname='treeDeadShrub']" />
+				<!-- Pine Forest -->
+	<remove xpath="worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@blockname='treeDeadShrub']" />
+	
+</RemoveBiomeDecor>
