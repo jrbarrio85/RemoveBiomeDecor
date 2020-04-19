@@ -5,7 +5,7 @@
 		<Name value="JRB_RemoveBiomeDecor" />
 		<Description value="Removes small dead trees, cinderblocks, driftwood, and scrap metal piles from spawning in biomes" />
 		<Author value="jrbarrio" />
-		<Version value="1.0" />
+		<Version value="2.0" />
 
 	</ModInfo>
 </xml>
